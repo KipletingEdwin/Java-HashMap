@@ -19,5 +19,17 @@ public class Main {
 
         System.out.println(empIds.containsKey("John"));
 
+        System.out.println(empIds.containsValue(98766));
+
+        empIds.put("John",23456);
+        System.out.println(empIds);
+
+        empIds.replace("Kramer",777);
+//        System.out.println(empIds);
+
+        empIds.putIfAbsent("Peter",222);
+
+        System.out.println(empIds);
+
     }
 }
