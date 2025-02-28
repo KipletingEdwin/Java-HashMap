@@ -11,7 +11,13 @@ public class Main {
         empIds.put("Jane",67890);
         empIds.put("Bob",98765);
 
+
+
+        System.out.println(empIds);
+
         System.out.println(empIds.get("John"));
+
+        System.out.println(empIds.containsKey("John"));
 
     }
 }
