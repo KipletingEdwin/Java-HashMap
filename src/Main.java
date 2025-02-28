@@ -31,5 +31,8 @@ public class Main {
 
         System.out.println(empIds);
 
+        empIds.remove("Peter");
+        System.out.println(empIds);
+
     }
 }
